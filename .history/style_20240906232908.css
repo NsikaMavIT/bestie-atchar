@@ -1,0 +1,70 @@
+/* GENERAL STYLE */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,100;1,300;1,400&display=swap');
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center
+}
+
+.logo img {
+    max-height: 120px;
+    width: auto;
+}
+
+.nav_bar ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav_bar ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-between;
+}
+
+.nav_bar ul li a {
+    color: #376821;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+.nav_bar ul li a:hover {
+    color: #ee981e;
+
+}
+
+.search_form {
+    display: flex;
+    margin-bottom: 1rem;
+}
+#my_account {
+    display: flex;
+    text-decoration-style: none;
+   
+}
+
+#person-outline {
+    display: flex;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Green color: #376821 and Gold color #ee981e; */
